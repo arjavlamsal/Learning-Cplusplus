@@ -1,20 +1,22 @@
 #include <iostream>
 
 int main(){
-    using namespace std;
     
-    int marks = 60;
-    marks <= 40 ? cout << "You failed" << '\n': cout << "You passed" << '\n';
+    std::string name;
+    std::cout << "Enter your name = ";
+    std::getline(std::cin, name);
 
-    char grade = 'A';
-    // grade == 'A' ? cout << "You did great!" : cout << "You did good!";
+    // Clear the contents in the string variable name
+    // std:: cout << name.clear(); 
 
-    // Also can be written as
-    cout << (grade == 'A' ? "You did great!" : "You did good!") << '\n';
+    // Targeting position of character in string
+    std::cout << name.at(0) << '\n';
+    
+    // Append method
+    std::cout << name.append("@gmail.com") << '\n';
 
-
-    bool hungry = true;
-    hungry ? cout << "Hungry" : cout << "Full";
+    std::cout << "Length = " << name.length() << '\n';
+    std::cout << name.empty();
     
 
 
