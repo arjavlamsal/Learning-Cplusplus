@@ -22,7 +22,7 @@ int main(){
         std::cout << '\n';
     }
         
-// huhu
+// hihi
 
     return 0;
 }
