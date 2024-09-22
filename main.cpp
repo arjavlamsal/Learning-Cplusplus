@@ -22,7 +22,7 @@ int main(){
         std::cout << '\n';
     }
         
-// ho
+// h
 
     return 0;
 }
