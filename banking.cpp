@@ -51,7 +51,7 @@ int main()
 }
 void showBalance(double balance){
     
-    std::cout << "Your balance is: $"<< std::setprecision(2) << std::fixed << balance << '\n';
+    std::cout << "Your balance is: $"<< std::setprecision(2) << std::fixed << balance << '\n'; // 2dp & made compulsory even if integer not only on float and double
 }
 double deposit(){
     
