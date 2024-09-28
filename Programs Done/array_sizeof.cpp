@@ -1,5 +1,6 @@
 #include <iostream>
 // Array in C++
+// Arrays are static data-structures in C++.
 // sizeof() operator to determine the size of a variable, dataset...
 
 using namespace std;
