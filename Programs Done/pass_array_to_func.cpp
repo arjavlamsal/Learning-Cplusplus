@@ -2,6 +2,11 @@
 // When an array is passed into a function, it decays into a pointer which points the memory address to where the array begins
 // This means that the function would have no idea what the size of the array is. So, we also need to pass the size of the
 // array to the function. This should be done in both declaration and definition.
+// When an entire array is passed into a function, it is passed 'BY REFERENCE' not 'BY VALUE'. Any changes made to the array
+// are made to the actual array.
+// Using const keyword while passing an array to a function prevents the function from making changes to the array. 
+// Eg: func(const int array[])
+// All elements in Global arrays are initialized to 0 by default, elements in Local arrays are initialized by default.
 
 #include <iostream>
 

@@ -1,29 +1,25 @@
-// Error Handling in FileIO.
-
+// Static Variable
+// A static variable is not destroyed when a function completes execution unlike other variables, they exist for the lifetime
+// of the program.
+// Their scope is only within the function they are declared.
 #include <iostream>
-#include <fstream> 
 
 using namespace std;
 
-int main(){
+void showStatic(); // Function prototype
 
-    ifstream file;
-    file.open("Tet.txt");
-
-    string value;
-
-    if (file.fail()){   // .fail() method helps to manage error if file cannot be accessed.
-        cout << "File failed to get.";
-    } 
-    else {
-        while(file >> value){ 
-            getline(file, value);
-            cout << value << endl;
-        }
-
+int main() {
+    // Call the showStatic function five times.
+    for (int count = 0; count < 3; count++) {
+        showStatic();
     }
 
-    file.close();
-
     return 0;
+}
+
+void showStatic() {
+    static int statNum = 5; // Declaration of static int statNum.
+
+    cout << "statNum is " << statNum << endl;
+    statNum++; // This adds +1 to the state of statNum preserved due to the previous iteration.
 }
