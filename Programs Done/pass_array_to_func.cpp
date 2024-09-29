@@ -7,6 +7,7 @@
 // Using const keyword while passing an array to a function prevents the function from making changes to the array. 
 // Eg: func(const int array[])
 // All elements in Global arrays are initialized to 0 by default, elements in Local arrays are initialized by default.
+// To copy one array to another, we should loop through all the elements of array A assigning each element to the position of elemrnt B.
 
 #include <iostream>
 
