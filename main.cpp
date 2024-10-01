@@ -1,25 +1,22 @@
-// Static Variable
-// A static variable is not destroyed when a function completes execution unlike other variables, they exist for the lifetime
-// of the program.
-// Their scope is only within the function they are declared.
-#include <iostream>
+  // Matrix ( 2D - arrays)
 
-using namespace std;
+  #include <iostream>
 
-void showStatic(); // Function prototype
+  int main(){
 
-int main() {
-    // Call the showStatic function five times.
-    for (int count = 0; count < 3; count++) {
-        showStatic();
+    std::string matrix[][3] = { {"a","b","c"},
+                                {"d","e","f"},
+                                {"g","h","i"}} ;
+
+    int no_of_rows = sizeof(matrix) / sizeof(matrix[0]);
+    int no_of_columns = sizeof(matrix[0]) / sizeof(matrix[0][0]);
+    
+    for(int i = 0; i < no_of_rows ; i++){
+        for (int j = 0; j < no_of_columns; j++){
+            std::cout << matrix[i][j] << '\n';
+        }
     }
 
+
     return 0;
-}
-
-void showStatic() {
-    static int statNum = 5; // Declaration of static int statNum.
-
-    cout << "statNum is " << statNum << endl;
-    statNum++; // This adds +1 to the state of statNum preserved due to the previous iteration.
-}
+  }
