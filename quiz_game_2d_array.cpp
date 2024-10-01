@@ -32,6 +32,8 @@
         }
         else{
             std::cout << "Incorrect!" << std::endl;
+            std::cout << "The right answer was " << answer_key[i] << std::endl;
+
         }
     }
     std::cout << "You got " << guesses << " correct answers!" << std::endl; 
