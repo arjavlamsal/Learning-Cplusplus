@@ -20,9 +20,7 @@ int main(){
             getline(file, value);
             cout << value << endl;
         }
-
     }
-
     file.close();
 
     return 0;

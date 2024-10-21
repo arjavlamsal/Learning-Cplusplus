@@ -1,6 +1,7 @@
-// Writing to a file
 #include <iostream>
-#include <fstream> // For file handling operation (ofstream)
+#include <fstream> // For file handling operation.
+
+// Writing to a file (ofstream for writing to files).
 
 using namespace std;
 
