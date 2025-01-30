@@ -1,0 +1,49 @@
+4523
+Stewart, John
+40.0
+30.5
+
+5684
+Johnson, Sherry
+42.5
+31.75
+
+6450
+Mullins, David
+45.7
+41.75
+
+1734
+Smith, Victoria
+48.8
+32.75
+
+5088
+Williams, Barry
+45.7
+34.5
+
+1285
+Thorton, Emily
+39.4
+23.75
+
+8754
+Smith, Olivia
+41.8
+39.75
+
+4087
+Andrews, Scott
+38.5
+21.5
+
+4587
+Kelly, Sabrina
+53.7
+25.4
+
+6505
+Lambert, Michael
+41.86
+26.85

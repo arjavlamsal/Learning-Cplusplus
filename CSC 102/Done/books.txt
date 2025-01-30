@@ -1,0 +1,164 @@
+550
+The Wolf
+24.95
+12
+
+525
+The Rabbit and the Lion
+34.87
+10
+
+725
+The Happy Hippo
+9.95
+5
+
+400
+A Trip to Mars
+17.85
+8
+
+425
+Chester the Puppy
+12.85
+15
+
+720
+Roscoe and Me
+29.95
+35
+
+830
+Hunting for Yesterday
+21.5
+10
+
+915
+A Hat Full of Marbles
+6.29
+19
+
+345
+Poetry by J. F. Harris
+11.65
+4
+
+785
+Breakfast in Biloxi
+26.72
+16
+
+685
+Remember My Name
+19.95
+22
+
+335
+A Good Place to Live
+33.45
+13
+
+925
+Hungry for Tomorrow
+38.56
+15
+
+790
+Rest for the Weary
+17.85
+20
+
+820
+Three Faces - One Man
+27.45
+10
+
+800
+The Good Angel
+24.85
+15
+
+420
+A Day from the Past
+31.95
+10
+
+845
+Lost in Alabama
+18.95
+20
+
+180
+The Turtle Who Talked
+5.95
+8
+
+235
+The Man and the Tiger
+28.88
+12
+
+175
+The Forgotten Story
+16.95
+13
+
+195
+The Legend that Lives
+20
+10
+
+111
+The Goat
+99.99
+10
+
+222
+Off Road Again
+25
+4
+
+333
+Well Worn Roads
+15.95
+13
+
+444
+My Great Adventure
+24.95
+22
+
+555
+Above the Clouds
+17.95
+6
+
+665
+Home of the Brave
+34.95
+12
+
+777
+Freedom is Knocking
+34.95
+10
+
+999
+A Wayward Path
+38.68
+15
+
+901
+The Fly on the Wall
+31.95
+18
+
+877
+The Cute Puppy
+15.99
+50
+
+544
+The Big Salad
+50
+5
